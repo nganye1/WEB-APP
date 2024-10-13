@@ -135,8 +135,4 @@ GET /countries?search=QUERY: Retrieves a list of country names matching the sear
 Usage
 Enter a country name in the search bar to see the results dynamically.
 Click the "Remove" button to clear the search input and results.
-Contributing
-If you want to contribute to this project, feel free to fork the repository and submit a pull request.
 
-License
-This project is open-source and available under the MIT License.
