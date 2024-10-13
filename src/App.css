@@ -1,0 +1,71 @@
+/* App.css - Specific Styles for the App Component */
+
+.app-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 50px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Flexbox container for the search bar and button */
+.search-container {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between the input and button */
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  padding: 10px;
+  width: 80%;
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.country-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.country-item {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #e5e5e5;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  color: #333;
+  text-align: left;
+}
+
+.country-item:hover {
+  background-color: #d4d4d4;
+}
+
+/* Add styles for the remove button */
+.remove-btn {
+  margin-left: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: white;
+  background-color: red;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.remove-btn:hover {
+  background-color: darkred;
+}
+
+
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .App {
+    width: 90%;
+    padding: 10px;
+  }
+}
